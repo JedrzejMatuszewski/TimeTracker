@@ -18,3 +18,4 @@ C:\Users\matus\Projekty\TimeTracker\TimeTracker\TimeTracker\obj\Debug\netstandar
 C:\Users\matus\Projekty\TimeTracker\TimeTracker\TimeTracker\obj\Debug\netstandard2.0\TimeTracker.dll
 C:\Users\matus\Projekty\TimeTracker\TimeTracker\TimeTracker\obj\Debug\netstandard2.0\ref\TimeTracker.dll
 C:\Users\matus\Projekty\TimeTracker\TimeTracker\TimeTracker\obj\Debug\netstandard2.0\TimeTracker.pdb
+C:\Users\matus\Projekty\TimeTracker\TimeTracker\TimeTracker\obj\Debug\netstandard2.0\Views\Buttons\BindableButton.xaml.g.cs

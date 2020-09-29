@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 using TimeTracker.PageModels.Base;
+using TimeTracker.Services.Account;
 using TimeTracker.Services.Navigation;
 using Xamarin.Forms;
 
@@ -18,16 +19,45 @@ namespace TimeTracker.PageModels
             set => SetProperty(ref _signInCommand, value);
         }
 
-        private INavigationService _navigationService;
-        public LoginPageModel(INavigationService navigationService)
+        private string _username;
+        public string Username
         {
-            _navigationService = navigationService;
-            SignInCommand = new Command(OnSignInAction);
+            get => _username;
+            set => SetProperty(ref _username, value);
         }
 
-        private void OnSignInAction(object obj)
+        private string _password;
+        public string Password
         {
-            _navigationService.NavigateToAsync<DashboardPageModel>();
+            get => _password;
+            set => SetProperty(ref _password, value);
+        }
+
+        private INavigationService _navigationService;
+        private IAccountService _accountService;
+
+        public LoginPageModel(INavigationService navigationService, IAccountService accountService)
+        {
+            _navigationService = navigationService;
+            _accountService = accountService;
+
+            SignInCommand = new Command(DoLogInActionAsync);
+        }
+
+        private async void DoLogInActionAsync(object obj)
+        {
+            var loginAttempt = await _accountService.LoginAsync(Username, Password);
+            if(loginAttempt)
+            {
+                await _navigationService.NavigateToAsync<DashboardPageModel>();
+            }
+            else
+            {
+                //TODO: Display an alert for Failure
+            }
+
+
+            
         }
     }
 }
