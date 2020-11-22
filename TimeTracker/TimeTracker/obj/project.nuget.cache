@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/fdYE64ordu5PoFb+6gz007d4Ze2v6DvHLPNIdy46fFyJ3iLa0ZBQU5/XuXc9OLjMkJhoT8yb+X0Hhjcgwvf3Q==",
+  "dgSpecHash": "cZgcWzlkIJFB3zT7K3r0TFIQSkJWnUHILR+SI1Li4RWZT6JJHd9SnzG4cqkrMVLqR29MYtFcrdU0joDKUoqASQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\matus\\Projekty\\TimeTracker\\TimeTracker\\TimeTracker\\TimeTracker.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\matus\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\matus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Users\\matus\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512"
   ],
   "logs": []
 }

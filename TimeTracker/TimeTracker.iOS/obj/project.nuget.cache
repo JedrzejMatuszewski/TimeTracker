@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZUYIwxb+o8E9a8zk0lOVH5LVzqXAQsnplV63B4EEiNwxzKp0v2BKZDSpsT+0pGCp/JbQTZvb2wOH3kRBmpdwdw==",
+  "dgSpecHash": "Ik60ZDgeR/o47zvbWRWUbnh+7SjxE+UKeY2VcxKvzTtGamQhkV2zJUk85xefgQdR8E0yPZa5aYHTzlE9lK2r4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\matus\\Projekty\\TimeTracker\\TimeTracker\\TimeTracker.iOS\\TimeTracker.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Users\\matus\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512"
   ],
   "logs": []
 }
